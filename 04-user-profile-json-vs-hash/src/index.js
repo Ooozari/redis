@@ -27,8 +27,8 @@ app.post("/user/:id/profile-hash", async (req, res) => {
 })
 
 app.get("/user/:id/profile-hash", async (req, res) => {
-    await redis.hgetall(`user:${req.params.id}:profile-json`);
-    res.json({ message: "Fetch as HASH"});
+    const data = await redis.hgetall(`user:${req.params.id}:profile-json`);
+    res.json({ message: "Fetch as HASH", data: data });
 })
 
 // hget -> single field from the object
