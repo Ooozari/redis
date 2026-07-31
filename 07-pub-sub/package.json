@@ -1,0 +1,17 @@
+{
+    "name": "07-pub-sub",
+    "version": "1.0.0",
+    "type": "module",
+    "private": true,
+
+    "scripts": {
+        "dev": "node src/index.js",
+        "subscriber": "node src/subscriber.js"
+    },
+
+    "dependencies": {
+        "ioredis": "^5.4.1",
+        "express": "^4.18.2"
+    }
+
+}
