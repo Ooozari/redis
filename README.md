@@ -204,6 +204,3 @@ I would describe my current standing as:
 This is a solid foundation for moving into more advanced backend and distributed systems topics.
 
 ---
-
-## LLM-Friendly Short Version
-I built a 7-part Redis learning series in Node.js using Express and ioredis. I started with Redis/Mongo connectivity checks, then built a simple announcement API using key-value storage, OTP generation with TTL expiry, user profile storage comparing JSON vs Redis hashes, a Redis queue for email jobs, BullMQ job processing with retries, and a Redis pub/sub notification example. Through this series, I gained practical hands-on experience with Redis keys, hashes, lists, TTL, queues, and event-driven messaging. My current level is beginner-to-intermediate in Redis, with a solid understanding of core patterns and real-world backend use cases, and I am ready to deepen my knowledge into caching, persistence, production queue systems, and more advanced distributed patterns.
