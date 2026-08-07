@@ -9,7 +9,7 @@ const startServer = async () => {
     await connectDB();
 
     const server = app.listen(PORT, () => {
-      console.log(`Server is running at ${PORT}`);
+      console.log(`Server is running at localhost:${PORT}`);
     });
 
     registerShutdownHandlers(server);
