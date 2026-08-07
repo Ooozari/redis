@@ -6,8 +6,13 @@
 
     // Environment Settings
     "target": "ES2020",
-    "module": "CommonJS",
-    "types": [],
+    "module": "nodenext",
+    "moduleResolution": "NodeNext",
+    "types": ["node"],
+
+    "paths": {
+      "@/*": ["./src/*"],
+    },
 
     // Module Resolution & Interop
     "esModuleInterop": true,
@@ -25,7 +30,7 @@
 
     // Recommended Options
     "jsx": "react-jsx",
-    "verbatimModuleSyntax": true,
+    "verbatimModuleSyntax": false,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
