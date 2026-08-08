@@ -24,5 +24,4 @@ app.use(
 );
 
 app.use(errorHandler);
-
 export default app;
